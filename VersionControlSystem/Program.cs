@@ -11,3 +11,6 @@ Console.WriteLine(user.ToString());
 
 user.Age += 1;
 Console.WriteLine(user.ToString());
+
+user.Name = "Victor Tsoy";
+

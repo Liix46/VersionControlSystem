@@ -4,8 +4,10 @@ using VersionControlSystem;
 Console.WriteLine("Hello, World!");
 
 User user = new();
-user.Name = "Tom HOlland";
+user.Name = "Tom Holland";
 user.Age = 23;
 
 Console.WriteLine(user.ToString());
 
+user.Age += 1;
+Console.WriteLine(user.ToString());

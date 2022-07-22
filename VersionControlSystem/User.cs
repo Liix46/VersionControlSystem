@@ -11,6 +11,7 @@ namespace VersionControlSystem
         }
 
         public string? Sex {get;set;}
+        public bool RememberMe {get;set;} 
     }
 }
 

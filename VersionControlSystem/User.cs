@@ -5,13 +5,15 @@ namespace VersionControlSystem
     {
         public string? Name { get; set; }
         public int? Age { get; set; }
-        public override string ToString()
+
+        public string? Sex {get;set;}
+        public bool RememberMe {get;set;} 
+
+         public override string ToString()
         {
             return $"Name:{Name}  Age: {Age}";
         }
 
-        public string? Sex {get;set;}
-        public bool RememberMe {get;set;} 
     }
 }
 

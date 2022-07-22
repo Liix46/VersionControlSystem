@@ -9,6 +9,8 @@ namespace VersionControlSystem
         {
             return $"Name:{Name}  Age: {Age}";
         }
+
+        public string? Password {get;set;}
     }
 }
 

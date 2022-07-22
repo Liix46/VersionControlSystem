@@ -9,8 +9,6 @@ namespace VersionControlSystem
         {
             return $"Name:{Name}  Age: {Age}";
         }
-
-        public string? Sex {get;set;}
     }
 }
 

@@ -1,12 +1,12 @@
 ﻿using VersionControlSystem;
 
-User user = new();
-user.Name = "Tom Holland";
-user.Age = 23;
+// User user = new();
+// user.Name = "Tom Holland";
+// user.Age = 23;
 
-user.Sex = "Male";
-user.RememberMe = true;
+// user.Sex = "Male";
+// user.RememberMe = true;
 
-Console.WriteLine(user.ToString());
+// Console.WriteLine(user.ToString());
 
 

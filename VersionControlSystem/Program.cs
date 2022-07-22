@@ -13,3 +13,4 @@ user.Age += 1;
 Console.WriteLine(user.ToString());
 
 user.Name = "first name";
+user.Name = "last name";
